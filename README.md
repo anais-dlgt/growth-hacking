@@ -14,9 +14,9 @@
 <hr>
 <h2 align="center">🕛 Etape 1 : les cibles de notre campagne d'emailing 🎯</h2>
 <p>Nous avons choisis de cibler :</p>
-<h4 align="center">Les étudiants de Nanterre/Paris 10</h4>
-<h4 align="center">Les mairies du Haut-de-France Seine-Maritime</h4>
-<h4 align="center">Un ciblage plus global avec Twitter</h4>
+<h4 align="center"><a href="https://the-hacking-project-59.herokuapp.com/home/student">Les étudiants de Nanterre/Paris 10</a></h4>
+<h4 align="center"><a href="https://the-hacking-project-59.herokuapp.com/home/mairie">Les mairies du Haut-de-France Seine-Maritime</a></h4>
+<h4 align="center"><a href="https://the-hacking-project-59.herokuapp.com/home/video">Un ciblage plus global avec Twitter</a></h4>
 <hr>
 <h2 align="center">🕧 Etape 2 : La landing page template 👨‍💻</h2>
 <hr>
