@@ -9,6 +9,12 @@ class HomeController < ApplicationController
   def student
   end
 
+  def mairie
+  end
+
+  def video
+  end
+
   def create
     @subscriber = Subscriber.new(email: params["email"])
     if @subscriber.save
