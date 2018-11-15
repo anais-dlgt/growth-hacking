@@ -1,0 +1,82 @@
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="https://www.thehackingproject.org/" target="_blank"><%= image_tag "logo-hacking-project.png", class:"logo-thp"%></a>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com/thehackingproject/" target="_blank"><%= image_tag "logo-fb.png", class:"logo"%></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/school/the_hacking_project/" target="_blank"><%= image_tag "logo-linkedin", class:"logo"%></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/the_hacking_project/"><%= image_tag "logo-insta.png", class:"logo"%></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="  https://twitter.com/the_hacking_pro?lang=fr"><%= image_tag "logo-twitter.png", class:"logo"%></a>
+          </li>
+            <a class="button" href="https://www.thehackingproject.org/" target="_blank">Accéder au site THP</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <section class="container">
+    <!-- Introduction Row -->
+    <h1 class="my-4"><small>Apprends à coder en communauté</small></h1>
+
+    <!-- Team Members Row -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <%= image_tag "communaute.png", class:"rounded-circle img-fluid d-block mx-auto"%>
+        <h5>Pas de profs
+        </h5>
+        <p>La communauté comme professeur, 800 personnes sont prêtes à te soutenir !</p>
+      </div>
+      <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <%= image_tag "maison.png", class:"rounded-circle img-fluid d-block mx-auto"%>
+        <h5>Pas de locaux
+        </h5>
+        <p>Nous sommes présents partout en France et même à l'étranger !</p>
+      </div>
+      <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <%= image_tag "euro.jpg", class:"rounded-circle img-fluid d-block mx-auto"%>
+        <h5>Pas de livret à casser
+        </h5>
+        <p>Tu paies une caution de 314,15€ que tu peux récupérer à la fin si tu le souhaites !</p>
+      </div>
+    </div>
+  </section>
+  <!-- /.container -->
+  <!-- Newsletter -->
+<section class="home-newsletter">
+<div class="container">
+  <div class="col-sm-12">
+  	<div class="single">
+  		<h2>Inscris-toi vite à notre newsletter</h2>
+      <p>Découvre les prochaines sessions, notre actualité et rejoins notre communauté !</p>
+      <form action="/home/student" method="post">
+  	   <div class="input-group">
+         <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+         <input id="email" type="email" class="form-control" name="email" placeholder="Entre ton email">
+         <span class="input-group-btn">
+           <button class="btn btn-theme" type="submit">Recevoir la newsletter</button>
+         </span>
+       </div>
+      </form>
+  	</div>
+  </div>
+</div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; THP Lille</p>
+    </div>
+    <!-- /.container -->
+  </footer>
