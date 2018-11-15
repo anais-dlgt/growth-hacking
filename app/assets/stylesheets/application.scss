@@ -52,8 +52,14 @@ h5
   height: 50px;
   width: auto;
 }
-
 .my-4
 {
-  text-align: center;
+display: flex;
+justify-content: center;
+}
+
+
+.col-md-m5
+{
+  margin-left:  40px;
 }
