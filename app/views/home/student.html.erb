@@ -23,8 +23,6 @@
     </div>
   </nav>
 
-
-
   <!-- Page Content -->
   <section class="container">
     <!-- Introduction Row -->
@@ -54,22 +52,25 @@
   </section>
   <!-- /.container -->
   <!-- Newsletter -->
-  <section class="home-newsletter">
-    <div class="container">
-      <div class="col-sm-12">
-      	<div class="single">
-      		<h2>Inscris-toi vite à notre newsletter</h2>
-          <p>Découvre les prochaines sessions, notre actualité et rejoins notre communauté !</p>
-      	  <div class="input-group">
-               <input type="email" class="form-control" placeholder="Entre ton email">
-               <span class="input-group-btn">
-               <button class="btn btn-theme" type="submit">Recevoir la newsletter</button>
-               </span>
-                </div>
-      	</div>
-      </div>
-    </div>
-  </section>
+<section class="home-newsletter">
+<div class="container">
+  <div class="col-sm-12">
+  	<div class="single">
+  		<h2>Inscris-toi vite à notre newsletter</h2>
+      <p>Découvre les prochaines sessions, notre actualité et rejoins notre communauté !</p>
+      <form action="/home/student" method="post">
+  	   <div class="input-group">
+         <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+         <input type="email" class="form-control" name="email" placeholder="Entre ton email">
+         <span class="input-group-btn">
+           <button class="btn btn-theme" type="submit">Recevoir la newsletter</button>
+         </span>
+       </div>
+      </form>
+  	</div>
+  </div>
+</div>
+</section>
 
 
   <!-- Footer -->

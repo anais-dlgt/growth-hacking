@@ -4,13 +4,16 @@
     <title>Growth Hacking</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <meta name="description" content="Présentation de l'organisme The Hacking Project, certifié Grande Ecole du Numérique par l'Etat français." />
+    
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <%= analytics_init if GoogleAnalytics.valid_tracker? %>
+    <%= favicon_link_tag asset_path('favicon.ico') %>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,6 +23,9 @@
   </head>
 
   <body>
+    <% flash.each do |type, msg| %>
+    <%= content_tag(:div,msg,class:"alert alert-#{type}") %>
+    <% end %>
     <%= yield %>
   </body>
 
