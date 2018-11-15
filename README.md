@@ -58,8 +58,8 @@ $rails db:migrate
 <h2 align="center">🎓L'équipe🎓</h2>
 <a href="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/42741146_2116357538425740_1052113060187078656_n.jpg?_nc_cat=103&_nc_ht=scontent-cdt1-1.xx&oh=1a626ffee23b63e46822fbc6a62d9f42&oe=5C70C2F8" target="_blank">Virginie</a>👵<br>
 <a href="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/18274936_10211314159962068_7553836001637344083_n.jpg?_nc_cat=103&_nc_ht=scontent-cdt1-1.xx&oh=0cc1892bd1313934756220cecff474b1&oe=5C7DF8A2" target="_blank">Anais</a>👧<br>
-<a href="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/29027947_1899909076686587_6529530608962724166_n.jpg?_nc_cat=107&_nc_ht=scontent-cdt1-1.xx&oh=28aca5b0fe7b298de24c16cfe21aef49&oe=5C65F0A7" target="_blank">Mouss</a>👨🏿<br>
+<a href="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/29027947_1899909076686587_6529530608962724166_n.jpg?_nc_cat=107&_nc_ht=scontent-cdt1-1.xx&oh=28aca5b0fe7b298de24c16cfe21aef49&oe=5C65F0A7" target="_blank">Mouss</a>🤴🏾<br>
 <a href="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/13240125_10209362946933703_3565085675363870411_n.jpg?_nc_cat=103&_nc_ht=scontent-cdt1-1.xx&oh=c8c60f7b611031d15327d0f3726a98ce&oe=5C7E007B" target="_blank">Tony</a>🤴<br>
-<a href="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/34511270_10214509103774173_2612935142267682816_n.jpg?_nc_cat=107&_nc_ht=scontent-cdt1-1.xx&oh=e9b698a81b104f0dc9f4af3ce14b0e85&oe=5C87386D" target="_blank">Josh</a>🤴🏾<br>
+<a href="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/34511270_10214509103774173_2612935142267682816_n.jpg?_nc_cat=107&_nc_ht=scontent-cdt1-1.xx&oh=e9b698a81b104f0dc9f4af3ce14b0e85&oe=5C87386D" target="_blank">Josh</a>👨🏿<br>
 <a href="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/35123868_10216241926582774_3976647804901654528_n.jpg?_nc_cat=109&_nc_ht=scontent-cdt1-1.xx&oh=9c27831bd0aab55c4bf63ef317fdd95e&oe=5C7E6656" target="_blank">Thomas</a>🤴<br>
 <a href="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/44373192_1980738065367667_9095564057917784064_n.jpg?_nc_cat=108&_nc_ht=scontent-cdt1-1.xx&oh=ecf7b864e0c739fa87a8c7eea94ec781&oe=5C68C8FA" target="_blank">Félix</a>👦
