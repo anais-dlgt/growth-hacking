@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap";
+@import "components/*";
+
+.py-5
+{
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.img-fluid
+{
+  max-width: 40% !important;
+}
+
+.row
+{
+  padding-top: 20px;
+}
+
+h5
+{
+  padding-top: 10px;
+}
+
+.logo-thp
+{
+  height: 50px;
+  width: auto;
+}
+
+.my-4
+{
+  text-align: center;
+}
