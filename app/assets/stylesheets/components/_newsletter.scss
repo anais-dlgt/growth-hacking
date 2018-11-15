@@ -1,6 +1,7 @@
 .home-newsletter {
 padding: 30px 0;
 background: #47b9c9;
+
 }
 
 .home-newsletter .single {
@@ -35,4 +36,11 @@ color: #fff;
 .home-newsletter .single p
 {
   color: white;
+}
+
+.wrapper
+{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
