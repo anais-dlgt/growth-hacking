@@ -2,44 +2,44 @@
 <hr>
 <h2 align="center">🤔Le projet🤔</h2>
 <h3 align="center">📖Idée générale📖</h3>
-<p>Ce projet est la version en production du projet des landing pages, afin d'avoir une synthèse de tout ce que l'on a fait depuis le début de la formation THP (On est déjà jour 33 maggle🙈)</p>
+<p>Ce projet est la version en production du projet des landing pages, afin d'avoir une synthèse de tout ce que l'on a fait depuis le début de la formation THP (On est déjà jour 33 maggle🙈). Nous avons réalisé 3 landing pages adaptées à 3 cibles différentes, l'objectif étant de les inciter à s'inscrire à la newsletter.</p>
 <h3 align="center">Mais qu'est-ce qu'il contient ⁉️</h3>
 <ul>
 	<li>Un joli template WrapBootstrap</li>
-	<li>Trois landings pages pour trois cibles différentes</li>
-	<li>Différents services afin de démarcher des personnes representatives de la fonction publique française ainsi que des étudiants et tout autres personnes susceptibles de s'intéresser un minimum au projet. (🐒petit défi : répéte cette phrase 3 fois rapidement🐒)</li>
-	<li>Vous allez avoir un service de mailer</li>
-	<li>Une opérations marketing grâce au Heroku Scheduler, pour avoir un afflux constant de personnes qui vont sur le site</li>
+	<li>Trois landing pages pour trois cibles différentes</li>
+	<li>Différents services afin de démarcher des personnes représentatives de la fonction publique française ainsi que des étudiants et toute autre personne susceptible de s'intéresser un minimum au projet. (🐒petit défi : répète cette phrase 3 fois rapidement🐒)</li>
+	<li>Un service de mailer pour récupérer les adresses emails oklm</li>
+	<li>Une opération marketing grâce au Heroku Scheduler, pour avoir un afflux constant de personnes qui vont sur le site</li>
 </ul>
 <hr>
 <h2 align="center">🕛 Etape 1 : les cibles de notre campagne d'emailing 🎯</h2>
-<p>Nous avons choisis de cibler :</p>
+<p>Nous avons choisi de cibler :</p>
 <h4 align="center"><a href="https://the-hacking-project-59.herokuapp.com/home/student">Les étudiants de Nanterre/Paris 10</a></h4>
-<h4 align="center"><a href="https://the-hacking-project-59.herokuapp.com/home/mairie">Les mairies du Haut-de-France Seine-Maritime</a></h4>
+<h4 align="center"><a href="https://the-hacking-project-59.herokuapp.com/home/mairie">Les mairies des Hauts-de-France et de la Seine-Maritime</a></h4>
 <h4 align="center"><a href="https://the-hacking-project-59.herokuapp.com/home/video">Un ciblage plus global avec Twitter</a></h4>
 <hr>
 <h2 align="center">🕧 Etape 2 : La landing page template 👨‍💻</h2>
 <hr>
-<p>Utilisation du template round-about à voir <a href="https://startbootstrap.com/template-overviews/round-about/">ici</a></p>
+<p>Utilisation du template round-about à voir <a href="https://startbootstrap.com/template-overviews/round-about/">ici</a> qui permettait d'utiliser 3 arguments (différents selon les cibles)</p>
 <h2 align="center">🕐 Etape 3 : 💌 la newsletter 💌</h2>
 <hr>
-<p>Nous avons utiliser MailChimp ✉️</p>
+<p>Nous avons branché MailChimp à notre site pour récupérer les adresses emails saisies et ainsi envoyer une newsletter pimpée comme jaja ✉️</p>
 <h2 align="center">🕜 Etape 4 : Les tâches automatisées</h2>
 <hr>
-<p>Nous avons automatisé le ciblage Twitter (ciblage global) ainsi que le ciblage des étudiants (par email, et donc plus spécifique)</p>
+<p>Nous avons automatisé le ciblage Twitter (ciblage global) ainsi que le ciblage des étudiants et des mairies (par email, et donc plus spécifique) via du scrapping (tmtc).</p>
 <h2 align="center">🕑 Etape 5 : Acquisitions</h2>
 <hr>
-<p>Acquisitions via Twitter : envois de Tweets ainsi que notifications pour nos Followersssss</p>
-<p>Acquisitions via Mail : Envois d'email ( merci captain )</p>
+<p>Acquisition via Twitter : envoi de Tweets ainsi que notifications pour nos Followersssss</p>
+<p>Acquisition via Email : envoi d'un email personnalisé par cible</p>
 <h2 align="center">🕝 Etape 6 : 📈Metrics📈</h2>
 <hr>
 <p>Google Analytics, normalement tu connais</p>
-<p>Si tu connais pas, c'est un système relativement simple à implémenter qui permet de récuperer les informations utilisateur de la personne qui se connecte, par exemple : Un utilisateur se connecte, Google analytics trouve son âge, sa pointure de chaussure, sa couleur de cheveux, le nombre de frère et soeur qu'il a, son adresse exa...</p>
+<p>Si tu connais pas, c'est un système relativement simple à implémenter qui permet de récuperer les informations utilisateur de la personne qui se connecte. Par exemple : un utilisateur se connecte, Google analytics trouve son âge, sa pointure de chaussure, sa couleur de cheveux, le nombre de frère et soeur qu'il a, son adresse exa...</p>
 <h2 align="center">🕒 Etape 7 : Les tests !</h2>
 <hr>
-<p>On implémente des tests pour voir si tout se passe bien dans le meilleurs des mondes !</p>
-<h2 align="center">🖥️Installation💻</h2>
-<p>Cloner le repo</p>
+<p>On implémente des tests pour voir si tout se passe bien dans le meilleur des mondes !</p>
+<h2 align="center">🖥️ Installation 💻</h2>
+<p>Si tu veux rentrer dans le vif du sujet, clone le repo</p>
 <blockquote>
 $git clone https://github.com/anais-dlgt/growth-hacking
 </blockquote>
@@ -47,15 +47,18 @@ $git clone https://github.com/anais-dlgt/growth-hacking
 <blockquote>
 $bundle install
 </blockquote>
-<p>Faire la creation/migration de la database</p>
+<p>Faire la création/migration de la database</p>
 <blockquote>
 $rails db:create <br>
 $rails db:migrate
 </blockquote>
 <H3><strong>⛔OU SINON⛔</strong></H3>
-<p>Vous allez ici : https://the-hacking-project-59.herokuapp.com ! C'est quand même plus simple..</p>
+<p>Pour le ciblage des étudiants, tu peux aller ici : https://the-hacking-project-59.herokuapp.com/home/student </p>
+<p>Pour le ciblage des maires, tu peux aller ici : https://the-hacking-project-59.herokuapp.com/home/mairie </p>
+<p>Pour le ciblage plus global, tu peux aller ici : https://the-hacking-project-59.herokuapp.com/home/video </p>
 <hr>
 <h2 align="center">🎓L'équipe🎓</h2>
+<img src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/42741146_2116357538425740_1052113060187078656_n.jpg?_nc_cat=103&_nc_ht=scontent-cdt1-1.xx&oh=1a626ffee23b63e46822fbc6a62d9f42&oe=5C70C2F8" alt="Virginie">Virginie<br>
 <a href="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/42741146_2116357538425740_1052113060187078656_n.jpg?_nc_cat=103&_nc_ht=scontent-cdt1-1.xx&oh=1a626ffee23b63e46822fbc6a62d9f42&oe=5C70C2F8" target="_blank">Virginie</a>👵<br>
 <a href="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/18274936_10211314159962068_7553836001637344083_n.jpg?_nc_cat=103&_nc_ht=scontent-cdt1-1.xx&oh=0cc1892bd1313934756220cecff474b1&oe=5C7DF8A2" target="_blank">Anais</a>👧<br>
 <a href="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/29027947_1899909076686587_6529530608962724166_n.jpg?_nc_cat=107&_nc_ht=scontent-cdt1-1.xx&oh=28aca5b0fe7b298de24c16cfe21aef49&oe=5C65F0A7" target="_blank">Mouss</a>🤴🏾<br>
