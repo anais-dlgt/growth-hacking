@@ -3,15 +3,15 @@ class HomeController < ApplicationController
   after_action :subscribe_user_to_mailchimp, only:[:create]
 
   def new
-    @user = Target.new
+    @subscriber = Subscriber.new
   end
 
   def student
   end
 
   def create
-    @user = Target.new(email: params["email"])
-    if @user.save
+    @subscriber = Subscriber.new(email: params["email"])
+    if @subscriber.save
       redirect_to request.referrer, notice: "Votre email a bien été ajoutée à la liste d'envoi de la newsletter !"
     else
     end
@@ -20,7 +20,7 @@ class HomeController < ApplicationController
   private
 
   def subscribe_user_to_mailchimp
-    SubscribeUserToMailchimpJob.perform_now(@user)
+    SubscribeUserToMailchimpJob.perform_now(@subscriber)
   end
-  
+
 end
