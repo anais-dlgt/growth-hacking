@@ -6,4 +6,15 @@ class HomeControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should get townhall" do
+    get home_mairie_url
+    assert_response :success
+  end
+
+  test "should get video" do
+    get home_video_url
+    assert_response :success
+  end
+
+
 end
