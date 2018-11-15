@@ -3,7 +3,7 @@ class HomeController < ApplicationController
   after_action :subscribe_user_to_mailchimp, only:[:create]
 
   def new
-    @user = Target.new
+    @subscriber = Subscriber.new
   end
 
   def student
@@ -28,7 +28,5 @@ class HomeController < ApplicationController
   def subscribe_user_to_mailchimp
     SubscribeUserToMailchimpJob.perform_now(@subscriber)
   end
-
-
 
 end
