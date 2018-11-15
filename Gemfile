@@ -69,3 +69,4 @@ gem 'twitter'
 gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
 gem 'google-analytics-rails', '1.1.1'
+gem 'gibbon', github: "amro/gibbon"

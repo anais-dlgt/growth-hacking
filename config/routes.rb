@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   root to: 'home#student'
   get 'home/student', to: 'home#student'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  post '/home/student' , to: 'home#create'
 end
