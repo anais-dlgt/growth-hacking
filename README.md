@@ -58,7 +58,6 @@ $rails db:migrate
 <p>Pour le ciblage plus global, tu peux aller ici : https://the-hacking-project-59.herokuapp.com/home/video </p>
 <hr>
 <h2 align="center">🎓L'équipe🎓</h2>
-<img src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/42741146_2116357538425740_1052113060187078656_n.jpg?_nc_cat=103&_nc_ht=scontent-cdt1-1.xx&oh=1a626ffee23b63e46822fbc6a62d9f42&oe=5C70C2F8" alt="Virginie" height="32", width"32">Virginie<br>
 <a href="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/42741146_2116357538425740_1052113060187078656_n.jpg?_nc_cat=103&_nc_ht=scontent-cdt1-1.xx&oh=1a626ffee23b63e46822fbc6a62d9f42&oe=5C70C2F8" target="_blank">Virginie</a>👵<br>
 <a href="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/18274936_10211314159962068_7553836001637344083_n.jpg?_nc_cat=103&_nc_ht=scontent-cdt1-1.xx&oh=0cc1892bd1313934756220cecff474b1&oe=5C7DF8A2" target="_blank">Anais</a>👧<br>
 <a href="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/29027947_1899909076686587_6529530608962724166_n.jpg?_nc_cat=107&_nc_ht=scontent-cdt1-1.xx&oh=28aca5b0fe7b298de24c16cfe21aef49&oe=5C65F0A7" target="_blank">Mouss</a>🤴🏾<br>
