@@ -1,0 +1,41 @@
+.bg-dark
+{
+  background-color: #243c4f !important;
+}
+
+.logo
+{
+  height: 20px;
+  width: auto;
+  color: #47b9c9;
+}
+
+.logo:hover {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.25); /* Safari et Chrome */
+-moz-transform:scale(1.25); /* Firefox */
+-ms-transform:scale(1.25); /* Internet Explorer 9 */
+-o-transform:scale(1.25); /* Opera */
+transform:scale(1.25);
+}
+
+.container a
+{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.button
+{
+  background-color: #47b9c9;
+  color: #243c4f;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.button:hover
+{
+  color: white;
+}
